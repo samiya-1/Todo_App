@@ -53,7 +53,7 @@ class _ToDoSingleCardState extends State<ToDoSingleCard> {
           ),
           InkWell(
               onTap: () {
-                TodolistController.deletetodo(4);
+                TodolistController.deletetodo(1);
               },
               child: Icon(Icons.delete)),
         ],
